@@ -1,0 +1,19 @@
+public class Main {
+    public static void main (String[]args){
+        int[] nums = {20,30,40,50};
+        int sum = 0;
+        for (int i=0;i<nums.length;i++){
+            int value = nums[i];
+            sum = sum+value;
+            
+        }
+    
+    System.out.println("sum of elements in an array:" + sum);
+        
+    }
+    
+}
+
+output:
+
+sum of elements in an array:140

@@ -1,0 +1,21 @@
+public class Main {
+    public static void main (String[]args){
+        int[] nums = {20,30,40,50};
+        int max = nums[0];
+        for (int i=1;i<nums.length;i++){
+            int value = nums[i];
+            if (value>max){
+                max = value;
+            }
+        }
+    System.out.println("Max:" + max);
+            
+        }
+    
+   
+        
+    }
+    
+output:
+
+Max:50
